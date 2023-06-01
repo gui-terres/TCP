@@ -1,11 +1,12 @@
 public class Imovel {
     // Attributes
-    int nQuartos;
-    int nBanheiros;
-    boolean temGaragem;
-    String endereco;
-    boolean aluguel;
-    double valorVenda;
+    public int nQuartos;
+    public int nBanheiros;
+    public boolean temGaragem;
+    public String endereco;
+    public boolean aluguel;
+    public double valorVenda;
+    public double imposto;
 
     // Methods
     public void imprimeDados() {
